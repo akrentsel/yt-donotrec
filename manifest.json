@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "YouTube Do Not Recommend Channel",
+    "version": "1.2",
+    "description": "Clicks 'Do not recommend channel' for recommended videos when activated",
+    "permissions": [
+      "https://www.youtube.com/*",
+      "activeTab"
+    ],
+    "browser_action": {
+      "default_title": "Run/Stop Do Not Recommend"
+    },
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    }
+  }
